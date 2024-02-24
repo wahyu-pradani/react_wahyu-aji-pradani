@@ -8,3 +8,4 @@
   - git commit = berguna untuk menyimpan file yang telah diupload di staging area kedalam repository
   - git push = berguna untuk mengirimkan file yang telah di commit kedalam repository
   - git diff = berguna untuk mengetahui perubahan yang terjadi pada file yang telah di edit 
+  
