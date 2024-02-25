@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateProduct</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Create Product</h1>
+            <form action="" method="post">
+                <h3>Detail Product</h3>
+                <div>
+                    <label for="product_name">Product name:</label><br>
+                    <input type="text" id="product_name" required pattern=".{6,50}">
+                </div>
+                <div>
+                    <label for="product_category">Product Category:</label><br>
+                    <select id="product_category" name="category" style="width: 71px;" size="1">
+                        <option value=""></option>
+                        <option value="Soap">Soap</option>
+                        <option value="Coffe">Coffe</option>
+                        <option value="Tea">Tea</option>
+                    </select>
+                </div>
+                <div>
+                    <span>Product-Freshness:</span><br>
+                    <input type="radio" name="NewBrand" id="BrandNew" value="BrandNew">
+                    <label for="BrandNew">Brand New</label><br>
+                    <input type="radio" name="HankSecond" id="SecondHank" value="SecondHank">
+                    <label for="SecondHank">Second Hank</label><br>
+                    <input type="radio" name="Refurbished" id="Refurbished" value="Refurbished">
+                    <label for="Refurbished">Refurbished</label>
+                </div>
+                <div>
+                    <span>Image of Product <input type="file" name="photo"></span>
+                </div>
+                <div>
+                    <label for="Add-Descirption">Additional Description</label><br>
+                    <textarea name="description" id="Add-Descirption" cols="37" rows="7"></textarea>
+                </div>
+                <div>
+                    <label for="Product_Price">Product price:</label><br>
+                    <input type="text" name="Price" id="Product_Price" placeholder="$100" style="width: 50px;" required pattern="[0-9]+(\.[0-9]{2})?">
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
