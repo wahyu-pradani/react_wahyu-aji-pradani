@@ -263,13 +263,16 @@ export default function FormCreateProduct () {
                                                 Product Category
                                             </th>
                                             <th scope="col" className="px-6 py-3">
+                                                Photo Product
+                                            </th>
+                                            <th scope="col" className="px-6 py-3">
                                                 Product Fresnhess
                                             </th>
                                             <th scope="col" className="px-6 py-3">
-                                                Product Price
+                                                Description 
                                             </th>
                                             <th scope="col" className="px-6 py-3">
-                                                Photo Product
+                                                Product Price
                                             </th>
                                             <th scope="col" className="px-6 py-3">
                                                 Action
@@ -284,21 +287,23 @@ export default function FormCreateProduct () {
                                                     {i+1}
                                                 </td>
                                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                {item.product_name}
+                                                    {item.product_name}
                                                 </th>
                                                 <td className="px-6 py-4">
-                                                {item.category}
+                                                    {item.category}
+                                                </td>
+                                                <td className="px-6 py-4">
+                                                    <img width={50} height={50} src={item.AddPhoto} alt={item.product_name} />
                                                 </td>
                                                 <td className="px-6 py-4">
                                                     {item.productFreshness}
                                                 </td>
                                                 <td className="px-6 py-4">
-                                                    ${item.Product_Price}
+                                                    {item.description}
                                                 </td>
                                                 <td className="px-6 py-4">
-                                                    <img width={50} height={50} src={item.AddPhoto} alt={item.product_name} />
-                                                    
-                                                </td>
+                                                    ${item.Product_Price}
+                                                </td>                                               
                                                 <td className="px-6 py-4 flex gap-2">
                                                     <Button color='failure' onClick={() => setOpenModal(true)}>Delete</Button>
                                                     <Button color='blue' >Edit</Button>
