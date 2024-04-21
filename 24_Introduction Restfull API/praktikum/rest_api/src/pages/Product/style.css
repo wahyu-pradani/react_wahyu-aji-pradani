@@ -1,0 +1,6 @@
+input[type=file]::file-selector-button{
+    background-color: rgb(59 130 246);
+    color: white;
+    border:none;
+    height:100%;
+}
