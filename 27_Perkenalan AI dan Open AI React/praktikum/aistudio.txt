@@ -1,0 +1,37 @@
+input : buatkan saya soal pilihan ganda tentang react js
+
+output :
+Soal Pilihan Ganda React JS
+Instruksi: Pilihlah satu jawaban yang paling tepat.
+1. Apa kepanjangan dari JSX?
+* A. JavaScript XML
+* B. Java Source
+* C. Java Syntax Extension
+* D. JSON Syntax Extension
+2. Manakah yang BUKAN merupakan keuntungan menggunakan React?
+* A. Dapat digunakan untuk membangun UI yang interaktif.
+* B. Mempermudah pembuatan komponen yang dapat digunakan kembali.
+* C. Meningkatkan performa aplikasi web.
+* D. Membutuhkan banyak konfigurasi awal yang rumit.
+3. Apa fungsi dari 'props' dalam React?
+* A. Untuk menyimpan state internal komponen.
+* B. Untuk meneruskan data dari komponen induk ke anak.
+* C. Untuk mendefinisikan style pada komponen.
+* D. Untuk menangani event pada komponen.
+4. Manakah yang merupakan cara untuk mendeklarasikan state dalam functional component?
+* A. Menggunakan constructor
+* B. Menggunakan method setState
+* C. Menggunakan hook useState
+* D. Menggunakan props
+5. Apa itu 'virtual DOM' dalam React?
+* A. Representasi dari DOM yang sebenarnya di memori.
+* B. Cara untuk mengakses elemen DOM secara langsung.
+* C. Library eksternal untuk memanipulasi DOM.
+* D. Bahasa pemrograman untuk membangun interface.
+
+Jawaban:
+A
+D
+B
+C
+A
