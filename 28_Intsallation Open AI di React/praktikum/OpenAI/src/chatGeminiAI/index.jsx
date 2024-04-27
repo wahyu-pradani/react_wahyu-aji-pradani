@@ -34,7 +34,10 @@ export default function CHATAI() {
   }
   return (
     <main className="grid gap-4 max-w-screen-xl">
-      <form className="max-w-screen-xl mx-auto grid gap-4" onSubmit={generateAnswer}>
+      <form
+        className="max-w-screen-xl mx-auto grid gap-4"
+        onSubmit={generateAnswer}
+      >
         <label
           htmlFor="message"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -58,12 +61,10 @@ export default function CHATAI() {
         </button>
       </form>
       <div className="w-full text-justify">
-      <ReactMarkdown className="mx-auto  block p-2.5 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-       
-        {answer}
+        <ReactMarkdown className="mx-auto  block p-2.5 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          {answer}
         </ReactMarkdown>
-        </div>
-      
+      </div>
     </main>
   );
 }
